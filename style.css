@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    color: white;
+    background-color: rgb(14, 14, 92);
+
+    padding: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.image{
+    height: 170px;
+    width: 170px;
+
+    border-radius: 50%;
+
+    overflow: hidden;  /*Ensures images don't overflow */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;    /* Ensures that circle is formed*/
+}  
+
+
+.image_container{
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 50px;
+}
+
+.score_board{
+    margin-top: 90px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 80px;
+}
+
+.score{
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.msg-container{
+
+    font-size: x-large;
+    font-weight: bolder;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    background-color: rgb(14, 14, 92);
+
+    padding: 10px;
+    
+
+    width: fit-content;
+
+    margin: 50px auto;
+    border-radius: 5px;
+}
+
+#mine{
+    margin-left: 15px;
+}
+
+#comp{
+    margin-left: 21px;
+}
+
+.image :hover{
+    opacity: 0.5;   
+    cursor: pointer;
+}
